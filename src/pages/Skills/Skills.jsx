@@ -16,20 +16,20 @@ const Skills = () => {
           <div className='row'>
             <h1 className='display-4 fw-bold text-center' data-aos='zoom-in'>Skills</h1>
             <div className='col-md-1d-flex justify-content-around'>
-              <div className='col-md-12 d-flex justify-content-around mt-5'data-aos='fade-left'>
-                    <FaHtml5     style={{fontSize:"120px",color:'#E96228'}}/>
-                    <IoLogoCss3  style={{fontSize:"120px",color:'#146EB0'}}/>
-                    <FaJs        style={{fontSize:"120px",color:'#EFD81D'}}/>
+              <div className='col-md-12 d-flex justify-content-around flex-column flex-md-row mt-5'data-aos='fade-left'>
+                    <FaHtml5     style={{fontSize:"120px",color:'#E96228', marginTop:'30px'}}/>
+                    <IoLogoCss3  style={{fontSize:"120px",color:'#146EB0', marginTop:'30px'}}/>
+                    <FaJs        style={{fontSize:"120px",color:'#EFD81D', marginTop:'30px'}}/>
               </div>
-              <div className='col-md-12 d-flex justify-content-around mt-5' data-aos='zoom-in'>
-                    <FaReact     style={{fontSize:"120px",color:'#7ADBF7'}}/>
-                    <FaNodeJs    style={{fontSize:"120px",color:'#7CB700'}}/>
-                    <SiMongodb   style={{fontSize:"120px",color:'#3F9330'}}/>
+              <div className='col-md-12 d-flex justify-content-around mt-5 flex-column flex-md-row' data-aos='zoom-in'>
+                    <FaReact     style={{fontSize:"120px",color:'#7ADBF7',marginTop:'30px'}}/>
+                    <FaNodeJs    style={{fontSize:"120px",color:'#7CB700',marginTop:'30px'}}/>
+                    <SiMongodb   style={{fontSize:"120px",color:'#3F9330',marginTop:'30px'}}/>
               </div>
-              <div className='col-md-12 d-flex justify-content-around mt-5' data-aos='fade-right'>
-                    <FaGithub    style={{fontSize:"120px",color:'#000000'}}/>
-                    <FaGitAlt    style={{fontSize:"120px",color:'#E84D31'}}/>
-                    <FaBootstrap style={{fontSize:"120px",color:'#8210F5'}}/>
+              <div className='col-md-12 d-flex justify-content-around mt-5 flex-column flex-md-row' data-aos='fade-right'>
+                    <FaGithub    style={{fontSize:"120px",color:'#000000', marginTop:'30px'}}/>
+                    <FaGitAlt    style={{fontSize:"120px",color:'#E84D31', marginTop:'30px'}}/>
+                    <FaBootstrap style={{fontSize:"120px",color:'#8210F5', marginTop:'30px'}}/>
               </div>
             </div>
           </div>

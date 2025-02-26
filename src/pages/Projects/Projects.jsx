@@ -9,7 +9,7 @@ const Projects = () => {
           <div className='container-fluid' style={{marginTop:'100px'}}>
             <div className='row'>
                 <h1 className='display-3 fw-bold text-center' data-aos='zoom-in'>Projects</h1>
-                <div className='col-md-12 d-flex'>
+                <div className='col-md-12 d-flex flex-column flex-md-row'>
                 {
                   cardData.map((val,index)=>{
                     return(

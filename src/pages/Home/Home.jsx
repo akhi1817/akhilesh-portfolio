@@ -14,7 +14,7 @@ const Home = () => {
                 <p className='text-dark mt-3'><FaLocationDot /> Pune,Maharashtra.</p>
                 <Link data-aos='zoom-in' to='contact' smooth={true} duration={1000} className='btn btn-primary px-4 rounded-pill fw-bold'>Contact Me</Link>
             </div>
-            <div className='col-md-6 ' data-aos='fade-left'>
+            <div className='col-md-6 mt-5' data-aos='fade-left'>
                   <img className='framed img-fluid ms-5' src='assets/profile.png'/>
             </div>
           </div>
