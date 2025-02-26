@@ -1,0 +1,13 @@
+
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: aliceblue;
+}
+
+img.framed {
+  box-shadow:
+    -50px -50px 0 -40px tomato,
+    50px 50px 0 -40px tomato;
+}

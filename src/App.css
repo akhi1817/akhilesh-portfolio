@@ -1,0 +1,17 @@
+.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-theme .navbar {
+    background-color: #222 !important;
+}
+
+.dark-theme .nav-link {
+    color: white !important;
+}
+
+.dark-theme .btn-warning {
+    background-color: #444 !important;
+    color: white !important;
+}
