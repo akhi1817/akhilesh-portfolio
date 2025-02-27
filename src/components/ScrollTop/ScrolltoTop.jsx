@@ -29,7 +29,7 @@ const ScrollToTopButton = () => {
   return (
     <>
       {visible && (
-        <button className='btn btn-dark text-white position-fixed' style={{bottom:'40px',right:'40px'}} onClick={scrollToTop}><FaArrowUp /></button>
+        <button className='btn btn-dark text-white position-fixed z-3' style={{bottom:'40px',right:'40px'}} onClick={scrollToTop}><FaArrowUp /></button>
       )}
     </>
   );

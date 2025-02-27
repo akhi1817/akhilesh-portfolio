@@ -24,8 +24,8 @@ const Card = (props) => {
         <h4>{props.name}</h4>
         <h5>{props.category}</h5>
         <div className='text-center'>
-        <button className='btn btn-primary mx-2 px-4' onClick={demoHandle}>{props.btn1}</button>
-        <button className='btn btn-primary mx-2 px-4' onClick={codehandle}>{props.btn2}</button>
+        <button className='btn btn-primary mx-2 px-4 my-2' onClick={demoHandle}>{props.btn1}</button>
+        <button className='btn btn-primary mx-2 px-4 my-2' onClick={codehandle}>{props.btn2}</button>
         </div>
        
     </div>
