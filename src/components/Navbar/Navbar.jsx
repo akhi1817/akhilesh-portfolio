@@ -5,8 +5,8 @@ const Navbar = () => {
 
 
   const resumeDownloadHandle=()=>{
-    window.location.href="https://drive.google.com/uc?export=download&id=1FuEXPDxoXw588k4aSkHX8S35uDMqx7zD"
-}
+    window.location.href = "https://drive.google.com/uc?export=download&id=1GCt9K1jebJ3m0fj_f2dn6D-jgYucthbp";
+  }
   return (
     <>
     <div className='container'>
